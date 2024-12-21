@@ -164,6 +164,27 @@ nav {
     float: right;
 }
 
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62,5%;
+    }
+}
+/* Hp */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
+
 .hero-section {
     display: grid;
     justify-content: center;
